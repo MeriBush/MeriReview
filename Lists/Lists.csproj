@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0D9D7751-9A78-4455-AF02-5C085FEBC613}</ProjectGuid>
+    <ProjectGuid>{2B985B67-C3FF-4468-A045-1B27814602ED}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MeriReview</RootNamespace>
-    <AssemblyName>MeriReview</AssemblyName>
+    <RootNamespace>Lists</RootNamespace>
+    <AssemblyName>Lists</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,10 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="ListsProgram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
